@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4780f82-d31b-4ea6-aa0b-eca5639f72fe",
+  "path": "gstack",
+  "path_key": "gstack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "garrytan/gstack/gstack",
+    "subpath": null,
+    "branch": null
+  }
+}
