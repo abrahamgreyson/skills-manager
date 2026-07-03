@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc2107ad-b375-4cee-ba85-abaf6badb786",
+  "path": "lovart-api",
+  "path_key": "lovart-api",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "lovartai/lovart-skill/lovart-api",
+    "subpath": "templates",
+    "branch": null
+  }
+}

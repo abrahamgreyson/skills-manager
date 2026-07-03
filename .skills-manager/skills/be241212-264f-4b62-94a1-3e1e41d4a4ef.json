@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be241212-264f-4b62-94a1-3e1e41d4a4ef",
+  "path": "dws",
+  "path_key": "dws",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "dingtalk-real-ai/dingtalk-workspace-cli/dws",
+    "subpath": "skills/mono",
+    "branch": null
+  }
+}
