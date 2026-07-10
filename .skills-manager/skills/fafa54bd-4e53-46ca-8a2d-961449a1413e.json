@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fafa54bd-4e53-46ca-8a2d-961449a1413e",
+  "path": "gsd",
+  "path_key": "gsd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "ctsstc/get-shit-done-skills/gsd",
+    "subpath": ".kilocode/skills/gsd",
+    "branch": null
+  }
+}
