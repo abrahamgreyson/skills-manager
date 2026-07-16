@@ -1,0 +1,22 @@
+[
+  {"query": "给当前仓库打个 tag，最新是 v2.0.0，这版做了从 monorepo 到单仓的重构", "should_trigger": true},
+  {"query": "帮我 version bump 一下，这版在 apps/billing 新加了个 billing 微服务", "should_trigger": true},
+  {"query": "按更新历史补几个 tag，我想把 v1 到 v2 中间那三个里程碑分别标出来", "should_trigger": true},
+  {"query": "打个发版标记吧，这版就改了点 landing page 文案，修了两个移动端小 bug", "should_trigger": true},
+  {"query": "findjeen-web 这仓库还一个 tag 都没有，已经上线跑了两周了，给我打个先", "should_trigger": true},
+  {"query": "semver 这版该怎么 bump？看下 v0.4.2 以来的 commit，主要把状态管理从 redux 换成 zustand 了", "should_trigger": true},
+  {"query": "在 a3f9b21 这个 commit 打个里程碑 tag，那是我们引入 i18n 的收尾点", "should_trigger": true},
+  {"query": "release v1.3，把 tag 打上就行，先别上线也别 push", "should_trigger": true},
+  {"query": "给我这版标个版本号，加了 CSV 导出和暗色模式两个功能", "should_trigger": true},
+  {"query": "打个 tag 收尾这版，v0.8.1 之后修了一堆 TS 类型报错加一个登录页崩溃", "should_trigger": true},
+  {"query": "把刚才打的 v2.0.0 tag push 到 origin，带上 --tags", "should_trigger": false},
+  {"query": "npm publish 把 @findjeen/utils 发到公网 registry", "should_trigger": false},
+  {"query": "把 feature/auth 这个分支合进 main", "should_trigger": false},
+  {"query": "把当前版本部署到生产，走蓝绿切换", "should_trigger": false},
+  {"query": "手滑打了个 v9.9.9 的 tag，帮我删掉", "should_trigger": false},
+  {"query": "改一下 v1.2.0 这个 tag 的 message，把版本说明写错了", "should_trigger": false},
+  {"query": "给这版生成一份 changelog，从 v1.0 到 HEAD", "should_trigger": false},
+  {"query": "查一下 a3f9b21 这个 commit 落在哪个 tag 里", "should_trigger": false},
+  {"query": "看下 v1.5.0 到 HEAD 之间都有哪些 commit，按文件分组列一下", "should_trigger": false},
+  {"query": "把这个 docker 镜像 tag 成 latest 推到 ghcr", "should_trigger": false}
+]
