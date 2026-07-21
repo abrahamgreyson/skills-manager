@@ -1,0 +1,21 @@
+[
+  {"query": "把上个月曼谷 5 个门店的销售对比导出来给区域经理看下，弄清楚点别光甩数字", "should_trigger": true},
+  {"query": "帮我做个骑手效率的分析 Excel，老板周一要看，说得通俗点他不太懂这些指标", "should_trigger": true},
+  {"query": "这周用户留存掉了不少，拉个 Excel 发运营团队，要有图表能直观看到下降趋势", "should_trigger": true},
+  {"query": "客户问上季度我们的交付及时率，做个报表发他，要像样点别太糙", "should_trigger": true},
+  {"query": "把这几个配送站最近一个月的运力数据整理成 Excel 给业务方，分几个 sheet 吧别挤一张表", "should_trigger": true},
+  {"query": "导一份本月退款分析给财务，数据自己说话别让我每列都解释一遍是啥", "should_trigger": true},
+  {"query": "做个大客户复购的报表给销售总监，趋势和排名都要能一眼看出来谁掉队了", "should_trigger": true},
+  {"query": "拉个雨天对单量影响的 Excel 给运营看结论，他们不碰数据看不懂字段名", "should_trigger": true},
+  {"query": "我手里这份是原始数据没法直接发，帮弄成给老板能看的版本", "should_trigger": true},
+
+  {"query": "把 downloads 里那个 results.csv 转成 xlsx 格式", "should_trigger": false},
+  {"query": "导出订单明细就行，原始字段别处理，我自己拿去 Tableau 画", "should_trigger": false},
+  {"query": "在 sales.xlsx 的 D 列加个利润率公式 =(C2-B2)/B2 拉到底", "should_trigger": false},
+  {"query": "把 df.to_excel 存一份到 /tmp 我看下聚合后的结构对不对", "should_trigger": false},
+  {"query": "帮我画个折线图看下这周订单趋势就行,不用导出", "should_trigger": false},
+  {"query": "导一份全量订单 csv 给数据中台入库,字段保持原样", "should_trigger": false},
+  {"query": "这个 Excel 第 3 行的表头背景色改成红色", "should_trigger": false},
+  {"query": "帮我把 B 列的日期统一格式化成 yyyy-mm-dd", "should_trigger": false},
+  {"query": "写个 pandas 脚本读这个 Excel 按 customer_id 聚合算复购率", "should_trigger": false}
+]

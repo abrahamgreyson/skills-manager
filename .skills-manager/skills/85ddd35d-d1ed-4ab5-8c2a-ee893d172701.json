@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "skill_id": "b45979fd-b499-4942-971f-c9d641adbb7b",
-  "path": "tag",
-  "path_key": "tag",
+  "skill_id": "85ddd35d-d1ed-4ab5-8c2a-ee893d172701",
+  "path": "excel-report",
+  "path_key": "excel-report",
   "enabled": true,
   "tags": [],
   "source": {
     "type": "git",
     "ref": "git@github.com:abrahamgreyson/skills.git",
-    "subpath": "tag",
+    "subpath": "excel-report",
     "branch": null
   }
 }
